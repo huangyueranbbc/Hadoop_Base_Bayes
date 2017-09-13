@@ -27,9 +27,9 @@
 			吃饭		2/5   1/5   2/5		5  
   
 >5 计算单个文本中每个分类的概率:	  
-		美女的概率=4/20*7/10*2/5	=0.055999999999999994  
-		汽车的概率=6/20*2/10*1/5	=0.012  
-		体育的概率=10/20*1/10*2/5	=0.020000000000000004  
+		美女的概率=4/20X7/10X2/5	=0.055999999999999994  
+		汽车的概率=6/20X2/10X1/5	=0.012  
+		体育的概率=10/20X1/10X2/5	=0.020000000000000004  
   
 >6 对每种分类的概率进行排序,选出概率最大的分类:  
 		美女:0.055999999999999994  
@@ -44,6 +44,6 @@
 >3 establish a model: the probability of the word in each category (the number of words in the document that appears in the category document / the total number of words in the document) and the total number of words that appear in all documents  
 >4 classify the text according to the model (text segmentation first): document name, all the words in the text and the word classification probability document, the number of documents that appear in the word. DOC1 classification: Beauty car sports
 Yes, 4/20 6/20 10/20 20 is good. 7/10 2/10 1/10 10 eats 2/5 1/5 2/5 5  
->5 calculate the probability of each category in a single text: the probability of beauty, the probability of the =4/207/102/5 =0.055999999999999994, the probability of the car, the probability of =6/202/101/5 =0.012, and the probability of =10/201/102/5 =0.020000000000000004  
+5 calculate the probability of each category in a single text: the probability of beauty, the probability of the =4/207/102/5 =0.055999999999999994, the probability of the car, the probability of =6/202/101/5 =0.012, and the probability of =10/201/102/5 =0.020000000000000004  
 >6 sort the probabilities of each category, and choose the largest category: Beauty: 0.055999999999999994 Sports: 0.020000000000000004 cars: 0.012  
 >7 the document classification label is: Beauty  
